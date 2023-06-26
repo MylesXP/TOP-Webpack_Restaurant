@@ -1,0 +1,72 @@
+body,
+html {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-left: 0;
+    padding: 10px;
+    color: lightblue;
+    width: 100%;
+}
+
+.navbar>li {
+    /* padding-left: 15px; */
+}
+
+.logo,
+.navitem {
+    display: flex;
+    align-items: center;
+    /* padding-left: 15px; */
+    color: lightblue;
+
+}
+
+.navitem>a {
+    text-decoration: none;
+    color: lightblue;
+    transition: all .2s ease-in-out;
+}
+
+.navitem>a:hover {
+    color: white;
+}
+
+h1,
+h3 {
+    text-align: center;
+    color: white;
+}
+
+
+
+
+/* Hero */
+
+#content {
+    background: linear-gradient(0deg, rgba(31, 31, 31, 0.392), rgba(44, 41, 43, 0.671)), url('../Images/burgers-with-beer-glass-tomatoes_220925-39221.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+}
+
+.herocopy_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
